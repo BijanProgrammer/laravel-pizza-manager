@@ -20,16 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04989635-c24c-4a1f-a051-5a76dd01e35a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/pizzas/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pizzas/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PizzaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PizzaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_04_091227_create_pizza_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_04_091227_create_pizzas_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/details.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pizzas.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pizzas/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pizzas/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pizzas/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pizzas/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pizzas/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pizzas/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +216,7 @@
       <updated>1609675450391</updated>
       <workItem from="1609675451480" duration="3623000" />
       <workItem from="1609745554128" duration="8934000" />
-      <workItem from="1609754573398" duration="7240000" />
+      <workItem from="1609754573398" duration="8329000" />
     </task>
     <servers />
   </component>

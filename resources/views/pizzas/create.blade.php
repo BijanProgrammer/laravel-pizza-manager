@@ -52,5 +52,7 @@
 @endsection
 
 @section('footer')
-	<a href="/">Home</a> | <a href="/pizzas">Show all Pizzas</a>
+	<a href="/">Home</a>
+	<span class="noop">|</span>
+	<a href="/pizzas">Show all Pizzas</a>
 @endsection

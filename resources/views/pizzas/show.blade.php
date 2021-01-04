@@ -4,8 +4,14 @@
 	<h2>Pizzas | {{$pizza->id}}</h2>
 
 	<p>
-		{{$pizza->name}} | {{$pizza->type }} | {{$pizza->base}}
+		{{$pizza->name}} | {{$pizza->type }} | {{$pizza->base}} | {{implode(", ", $pizza->toppings)}}
 	</p>
+
+	<form action="/pizzas/{{$pizza->id}}" method="POST">
+		@csrf
+		@method('DELETE')
+		<input class="btn btn-success" type="submit" value="Complete Order">
+	</form>
 @endsection
 
 @section('footer')

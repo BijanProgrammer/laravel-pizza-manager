@@ -37,4 +37,11 @@
 
 			return redirect('/')->with('message', 'The order has been successfully added!');
 		}
+
+		public function destroy($id) {
+			$pizza = Pizza::findOrFail($id);
+			$pizza->delete();
+
+			return redirect('/pizzas')->with('message', 'The order has been successfully completed!');
+		}
 	}
