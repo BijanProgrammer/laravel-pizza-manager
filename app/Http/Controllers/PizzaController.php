@@ -2,21 +2,39 @@
 
 	namespace App\Http\Controllers;
 
+	use App\Models\Pizza;
+
 	class PizzaController extends Controller {
 		public function index() {
-			$pizzas = [
-				["type" => "hawaiian", "base" => "cheesy crust"],
-				["type" => "volcano", "base" => "garlic crust"],
-				["type" => "veg supreme", "base" => "thin & crust"]
-			];
+			$pizzas = Pizza::all();
 
-			return view("pizzas", [
-				"pizzas" => $pizzas,
-				"name" => request("name")
+			return view("pizzas.index", [
+				"pizzas" => $pizzas
 			]);
 		}
 
 		public function show($id) {
-			return view("details", ["id" => $id]);
+			$pizza = Pizza::findOrFail($id);
+
+			if (isset($pizza))
+				return view("pizzas.show", ["pizza" => $pizza]);
+			else
+				return view("home");
+		}
+
+		public function create() {
+			return view("pizzas.create");
+		}
+
+		public function store() {
+			$pizza = new Pizza();
+			$pizza->name = request('name');
+			$pizza->type = request('type');
+			$pizza->base = request('base');
+			$pizza->toppings = request('toppings');
+
+			$pizza->save();
+
+			return redirect('/')->with('message', 'The order has been successfully added!');
 		}
 	}
