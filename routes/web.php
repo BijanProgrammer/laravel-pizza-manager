@@ -8,3 +8,7 @@
 	Route::delete('/pizzas/{id}', 'App\Http\Controllers\PizzaController@destroy');
 	Route::post('/pizzas', 'App\Http\Controllers\PizzaController@store');
 	Route::get('/pizzas', 'App\Http\Controllers\PizzaController@index');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

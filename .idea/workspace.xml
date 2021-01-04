@@ -20,14 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04989635-c24c-4a1f-a051-5a76dd01e35a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PizzaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PizzaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/main.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pizzas/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pizzas/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pizzas/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pizzas/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pizzas/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pizzas/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +177,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/pizzas" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.SCSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -216,7 +219,8 @@
       <updated>1609675450391</updated>
       <workItem from="1609675451480" duration="3623000" />
       <workItem from="1609745554128" duration="8934000" />
-      <workItem from="1609754573398" duration="8329000" />
+      <workItem from="1609754573398" duration="9688000" />
+      <workItem from="1609771801993" duration="280000" />
     </task>
     <servers />
   </component>
@@ -264,10 +268,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="439" key="NewPhpFileDialog/1920.63.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609748651033" />
-    <state x="205" y="115" width="1560" height="810" key="SettingsEditor" timestamp="1609766596547">
+    <state x="205" y="115" width="1560" height="810" key="SettingsEditor" timestamp="1609771916146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="205" y="115" width="1560" height="810" key="SettingsEditor/1920.63.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609766596547" />
+    <state x="205" y="115" width="1560" height="810" key="SettingsEditor/1920.63.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1609771916146" />
     <state x="668" y="95" width="583" height="849" key="find.popup" timestamp="1609746364502">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
